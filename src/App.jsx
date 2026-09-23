@@ -37,7 +37,7 @@ function Exchange() {
   const { data: currencyData, status: currencyStatus, error: currencyError, convert } = useExchangeCurrency();
   return (
     <div className="relative flex min-h-screen flex-col justify-center px-5 py-12">
-      <header className="mb-8">
+      <header className="mb">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-amber-400">
           Currency
         </p>
