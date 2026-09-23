@@ -16,8 +16,10 @@ export default function CurrencyListPanel({data}) {
                     {currency.quote}
                   </span>
                 </div>
-              </div>
 
+                <div> <p className="text-sm font-medium text-slate-200"> {currency.quote} </p> <p className="mt-0.5 font-mono text-[10px] text-slate-500"> 1 {currency.base} </p> </div>
+              </div>
+              
               {/* Rate */}
               <div className="text-right">
                 <p className="font-mono text-sm font-semibold text-slate-100">
