@@ -1,4 +1,4 @@
-const CURRENCY_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://currency-exchange-backend-production-88f7.up.railway.app/';
+const CURRENCY_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://currency-exchange-backend-production-88f7.up.railway.app';
 
 
 export async function fetchDisplayCurrencies() {
